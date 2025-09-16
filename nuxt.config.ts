@@ -4,6 +4,9 @@
     compatibilityDate: '2025-07-15',
     devtools: { enabled: true },
     modules: ['@nuxt/icon', '@nuxt/image', '@nuxt/fonts','@hypernym/nuxt-anime'],
+    icon:{
+      serverBundle: 'local'
+    },
     css:['~/src/assets/css/main.css'],
     vite: {
       plugins: [tailwindcss()]
