@@ -29,14 +29,7 @@
           </a>
         </div>
         
-        <div class="text-gray-400 opacity-0" ref="emailElement">
-          <div class="flex items-center group">
-            <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center mr-2 group-hover:bg-accent transition-colors duration-300">
-              <Icon name="mdi:email" class="group-hover:text-gray-900" />
-            </div>
-            <a href="mailto:djohansyuhada@uui.ac.id" class="group-hover:text-accent transition-colors duration-300">djohansyuhada@uui.ac.id</a>
-          </div>
-        </div>
+        
       </div>
       
     </div>
