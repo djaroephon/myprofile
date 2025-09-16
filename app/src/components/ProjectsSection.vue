@@ -75,23 +75,6 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-
-// Import certificate images
-import lks from '/images/certificates/lksn.png'
-import cisco from '/images/certificates/cisco.png'
-import codeCamp from '/images/certificates/codeCamp.png'
-import apji from '/images/certificates/apji.png'
-
-// import projekt images
-import anime from '/images/projects/Anime.png'
-import inven from '/images/projects/Inventaris.png'
-import menu from '/images/projects/menuKuliah.png'
-import pelayanan from '/images/projects/pelayanan.png'
-import pilkasis from '/images/projects/pilkasis.png'
-import download from '/images/projects/PyDownloader.png'
-import quran from '/images/projects/quran.png'
-import spotify from '/images/projects/spotifyClone.png'
-
 const activeFilter = ref('All')
 
 const filters = ['All', 'Projects', 'Certifications']
@@ -102,7 +85,7 @@ const items = [
     title: 'Spotify Clone',
     description: 'A Spotify clone built with Vue.js and tailwind CSS',
     type: 'Projects',
-    image: spotify,
+    image: '/images/projects/spotifyClone.png',
     tags: ['Vue', 'Tailwind', 'Web Development']
   },
   {
@@ -110,7 +93,7 @@ const items = [
     title: 'LKS Nasional 2023 Web Technologies',
     description: 'LKS Nasional 2023 Web Technologies Competition Finalist',
     type: 'Certifications',
-    image: lks,
+    image: '/images/certificates/lksn.png',
     tags: ['LKS Nasional 2023', 'Web Technologies', 'Competition']
   },
   {
@@ -118,7 +101,7 @@ const items = [
     title: 'Cisco Certified Network Basic',
     description: 'Cisco Networking Basics Certification',
     type: 'Certifications',
-    image: cisco,
+    image: '/images/certificates/cisco.png',
     tags: ['Cisco', 'Networking', 'Certification']
   },
   {
@@ -126,7 +109,7 @@ const items = [
     title: 'AlQuranKu Digital',
     description: 'A digital platform for Reading Quranic ',
     type: 'Projects',
-    image: quran,
+    image: '/images/projects/quran.png',
     tags: ['Vue', 'Axios', 'Web Development']
   },
   {
@@ -134,7 +117,7 @@ const items = [
     title: 'Certified Ipv6 Basic Network',
     description: 'IDNIC Ipv6 Basic Network Certification',
     type: 'Certifications',
-    image: apji,
+    image: '/images/certificates/apji.png',
     tags: ['Ipv6', 'Networking', 'Certification']
   },
   {
@@ -142,7 +125,7 @@ const items = [
     title: 'PyDownloader',
     description: 'Youtube Video Downloader using Python',
     type: 'Projects',
-    image: download,
+    image: '/images/projects/PyDownloader.png',
     tags: ['Python', 'YouTube', 'Web Development']
   },
   {
@@ -150,7 +133,7 @@ const items = [
     title: 'Certified CodeCamp Web Design',
     description: 'CodeCamp Web Design Certification',
     type: 'Certifications',
-    image: '/images/certificates/codeCamp.png',
+    image: codeCamp,
     tags: ['Web Design','Code Camp', 'Certification']
   },
   {
@@ -158,7 +141,7 @@ const items = [
     title: 'MyAnime',
     description: 'Fun Web For Anime Things',
     type: 'Projects',
-    image: anime,
+    image: '/images/projects/Anime.png',
     tags: ['Vue', 'Tailwind', 'Web Development']
   },
   {
@@ -166,7 +149,7 @@ const items = [
     title: 'Inventaris Barang',
     description: 'A simple inventory management system built with Laravel and Vue.js',
     type: 'Projects',
-    image: inven,
+    image: '/images/projects/Inventaris.png',
     tags: ['Vue', 'Laravel', 'Web Development']
   },
   {
@@ -174,7 +157,7 @@ const items = [
     title: 'Menu Kuliah',
     description: 'A web for See schedule Subjects in UUI',
     type: 'Projects',
-    image: menu,
+    image: '/images/projects/menuKuliah.png',
     tags: ['Vue', 'Tailwind', 'Web Development']
   },
   {
@@ -182,7 +165,7 @@ const items = [
     title: 'Pelayanan TIK',
     description: 'Web for give service IT in For SKPA',
     type: 'Projects',
-    image: pelayanan,
+    image: '/images/projects/pelayanan.png',
     tags: ['Laravel', 'Mysql', 'Web Development']
   },
   {
@@ -190,7 +173,7 @@ const items = [
     title: 'Pilkasis',
     description: 'A web application for managing student council elections built with Vue.js and Laravel',
     type: 'Projects',
-    image: pilkasis,
+    image: '/images/projects/pilkasis.png',
     tags: ['Vue', 'Laravel', 'Fullstack', 'Web Development']
   }
 ]
