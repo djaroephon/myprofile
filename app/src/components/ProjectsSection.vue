@@ -150,7 +150,7 @@ const items = [
     title: 'Certified CodeCamp Web Design',
     description: 'CodeCamp Web Design Certification',
     type: 'Certifications',
-    image: codeCamp,
+    image: '/images/certificates/codeCamp.png',
     tags: ['Web Design','Code Camp', 'Certification']
   },
   {
