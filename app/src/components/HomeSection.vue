@@ -40,7 +40,7 @@
             <svg class="w-5 h-5 transform group-hover:rotate-12 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>
-            <span>Download CV</span>
+            <span>Open CV</span>
           </div>
         </button>
       </div>
@@ -89,12 +89,13 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-import profileImage from '../assets/images/myProfile.png'
+import profileImage from '../assets/images/WhatsApp Image 2026-02-23 at 13.33.07.jpeg'
 
 const socialLinks = [
   { icon: 'mdi:instagram', url: 'https://www.instagram.com/djaroephon.1746/' },
   { icon: 'mdi:twitter', url: 'https://x.com/1746Djaroephon' },
   { icon: 'mdi:github', url: 'https://github.com/djaroephon' },
+  {icon: 'mdi:linkedin', url: 'https://www.linkedin.com/in/djaroephon-djohan-syuhada-30aa263b2' },
 ]
 
 const textOptions = ['Web Developer']
@@ -124,13 +125,13 @@ const downloadCV = () => {
       <svg class="w-5 h-5 animate-spin" fill="currentColor" viewBox="0 0 20 20">
         <path d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"/>
       </svg>
-      <span>Downloading...</span>
+      <span>Opening...</span>
     </div>
   `
   
   setTimeout(() => {
     button.innerHTML = originalText
-    alert('Blom ada CV bg(blom buat hehe)')
+    window.open('https://docs.google.com/document/d/1dz0uCgAiEjNuzSCAh9JhmohBiU9nK2bHhdcDLroCwRs/edit?usp=sharing', '_blank')
   }, 2000)
 }
 
