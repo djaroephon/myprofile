@@ -89,7 +89,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-import profileImage from '../assets/images/WhatsApp Image 2026-02-23 at 13.33.07.jpeg'
+import profileImage from '../assets/images/myProfile.png'
 
 const socialLinks = [
   { icon: 'mdi:instagram', url: 'https://www.instagram.com/djaroephon.1746/' },
