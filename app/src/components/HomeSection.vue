@@ -11,7 +11,7 @@
       <div class="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
         <p class="text-lg text-accent mb-2 opacity-0" ref="hiElement">Hi, I'm</p>
         <h1 class="text-4xl md:text-6xl font-bold mb-4 opacity-0" ref="nameElement">
-          Djaroephon Djohan Syuhada
+          Djaroephon Djohan Syuhadaa
         </h1>
         <h2 class="text-xl md:text-2xl text-gray-400 mb-6 opacity-0" ref="titleElement">
           <span ref="rotatingText">Web Developer</span>
